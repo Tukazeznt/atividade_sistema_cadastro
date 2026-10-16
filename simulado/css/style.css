@@ -1,0 +1,102 @@
+/* (clínica: o style.css não muda) */
+/* Estilo padrão do sistema: deixa todas as telas organizadas sem precisar mudar o HTML */
+
+/* Página: fonte simples, fundo cinza claro e conteúdo centralizado */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Títulos */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 25px;
+}
+
+/* Texto de boas-vindas da tela principal */
+p {
+    font-size: 18px;
+}
+
+/* Formulários em uma caixa branca */
+form {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+/* Rótulos dos campos (telas de procedimento) */
+label {
+    display: inline-block;
+    min-width: 110px;
+    font-weight: bold;
+}
+
+/* Campos de digitação e listas de seleção */
+input, select {
+    padding: 7px;
+    margin: 4px 4px 8px 0;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+/* Botões */
+button {
+    padding: 8px 16px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a252f;
+}
+
+/* Tabelas de listagens */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Cabeçalho da tabela escuro e linhas alternando a cor */
+th {
+    background: #2c3e50;
+    color: #fff;
+}
+
+tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+
+/* Links (menu, Editar, Excluir e Voltar) */
+a {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+a:hover {
+    color: #e67e22;
+}
